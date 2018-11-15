@@ -42,6 +42,11 @@ h2 + p {
 #menu {
 	display: flex;
 	justify-content: space-around;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	background-color: white;
 }
 /*Modification de la hauteur de ul et des li (hauteur=#navtop), pour que mon "border-top" sous "li:hover" puisse être correctement positionné*/
 /*Utilisation d'un padding-left dans le ul pour ajuster l'écartement "space-around" de #menu*/
@@ -74,6 +79,7 @@ h2 + p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 92.5px;
 }
 									/*SECTION*/
 				/*SERVICES*/
