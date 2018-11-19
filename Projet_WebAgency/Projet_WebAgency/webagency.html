@@ -16,10 +16,10 @@
 
 				<nav id="navtop">
 					<ul>
-						<li><a href="">Accueil</a></li>
-						<li><a href="">Services</a></li>
-						<li><a href="">Portfolio</a></li>
-						<li><a href="">Contact</a></li>
+						<a href=""><li>Accueil</li></a>
+						<a href=""><li>Services</li></a>
+						<a href=""><li>Portfolio</li></a>
+						<a href=""><li>Contact</li></a>
 					</ul>
 				</nav>
 			</div>
@@ -34,8 +34,11 @@
 
 		<section>
 			<h2>NOS SERVICES</h2>
+			<div class="h2_fa-circle">
+				<i class="fas fa-circle"></i>
+			</div>
 
-			<p>texte à venir</p>
+			<p class="section_p_intro">texte à venir</p>
 
 			<div id="services">
 				<p><img src="images/main-feature.png" alt="" /></p>
@@ -45,8 +48,14 @@
 						<div>
 							<i class="fas fa-chart-line"></i><i class="fas fa-circle"></i>
 						</div>
-						<i class="fas fa-cubes"></i>
-						<i class="fas fa-chart-pie"></i>
+
+						<div>
+							<i class="fas fa-cubes"></i><i class="fas fa-circle"></i>
+						</div>
+
+						<div>
+							<i class="fas fa-chart-pie"></i><i class="fas fa-circle"></i>
+						</div>
 					</div>
 
 					<div id="infos_services">
@@ -71,15 +80,18 @@
 			
 		<section id="projets">
 			<h2>NOS PROJETS</h2>
+			<div class="h2_fa-circle">
+				<i class="fas fa-circle"></i>
+			</div>
 
-			<p>texte à venir</p>
+			<p class="section_p_intro">texte à venir</p>
 
 			<nav id="nav2">
 				<ul>
-					<a href=""><li>All Works</li></a>
-					<a href=""><li>Creative</li></a>
-					<a href=""><li>Corporate</li></a>
-					<a href=""><li>Portfolio</li></a>
+					<a href=""><div class="fleche_nav2"><i class="fas fa-caret-down"></i></div><li>All Works</li></a>
+					<a href=""><div class="fleche_nav2"><i class="fas fa-caret-down"></i></div><li>Creative</li></a>
+					<a href=""><div class="fleche_nav2"><i class="fas fa-caret-down"></i></div><li>Corporate</li></a>
+					<a href=""><div class="fleche_nav2"><i class="fas fa-caret-down"></i></div><li>Portfolio</li></a>
 				</ul>
 			</nav>
 
@@ -101,37 +113,37 @@
 
 		<footer>
 			<div id="plan">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5248.503567779885!2d2.349181905118585!3d48.87247651714403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1541394034445" width="80%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5248.503567779885!2d2.349181905118585!3d48.87247651714403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1541394034445" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-			<div id="formulaire">
-				<h3>Contact Info</h3>
-				<p><strong>WebAgency SAS</strong><br />
-				25 Rue d'Hauteville 75010 Paris<br />
-				Tel: 01 02 03 04 05</p>
+				<div id="formulaire">
+					<h3>Contact Info</h3>
+					<p><strong>WebAgency SAS</strong><br />
+					25 Rue d'Hauteville 75010 Paris<br />
+					Tel: 01 02 03 04 05</p>
 
-				<form method="post" action="traitement.php">
-					<p>
-						<input type="text" name="name" placeholder="Name" />
-					</p>
+					<form method="post" action="traitement.php">
+						<p>
+							<input class="input_monotext" type="text" name="name" placeholder="Name" />
+						</p>
 
-					<p>
-						<input type="email" name="email" placeholder="Email" />
-					</p>
+						<p>
+							<input class="input_monotext" type="email" name="email" placeholder="Email" />
+						</p>
 
-					<p>
-						<input type="text" name="subject" placeholder="Subject" />
-					</p>
+						<p>
+							<input class="input_monotext" type="text" name="subject" placeholder="Subject" />
+						</p>
 
-					<p>
-						<textarea name="message" placeholder="Message"></textarea>
-					</p>
+						<p>
+							<textarea name="message" placeholder="Message"></textarea>
+						</p>
 
-					<p>
-						<!-- Utilisation de "button" au lieu de "submit" pour l'exercice -->
-						<input type="button" value="Send Message">
-					</p>
-				</form>
+						<p>
+							<!-- Utilisation de "button" au lieu de "submit" pour l'exercice -->
+							<input type="button" value="Send Message">
+						</p>
+					</form>
+				</div>
 			</div>
 		</footer>
 	</body>
